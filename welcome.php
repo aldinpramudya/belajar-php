@@ -19,10 +19,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#" target="_blank">Github</a>
+                        <a class="nav-link " aria-current="page" href="https://github.com/aldinpramudya/belajar-php.git" target="_blank">Github</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank">API Docs</a>
+                        <a class="nav-link " aria-current="page" href="index.html">Login Page</a>
                     </li>
                 </ul>
             </div>

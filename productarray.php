@@ -73,17 +73,14 @@ $data = array(
 <body>
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand mb-0 h1" href="welcome.php">Home</a>
+            <a class="navbar-brand mb-0 h1" href="welcome.php">Back to Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#" target="_blank">Github</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank">API Docs</a>
+                        <a class="nav-link " aria-current="page" href="https://github.com/aldinpramudya/belajar-php.git" target="_blank">Github</a>
                     </li>
                 </ul>
             </div>
@@ -113,7 +110,7 @@ $data = array(
                     $card_html .= ' rated ' . $row["mal_score"] . ' on MyAnimeList ';
                     $card_html .= '</li>';
                     $card_html .= '</p>';
-                    $card_html .= '<a href="' . $row["mal_link"] . '" target="_blank" class="btn btn-primary">MyAnimeList Link</a>';
+                    $card_html .= '<a href="' . $row["mal_link"] . '" target="_blank" class="btn btn-primary">MAL Profile</a>';
                     $card_html .= '</ul>';
                     $card_html .= '</div>';
                     $card_html .= '</div>';
@@ -126,7 +123,6 @@ $data = array(
     </main>
 
 
-    <script src="assets/js/productarray.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
