@@ -29,18 +29,27 @@
         </div>
     </nav>
     <main>
-        <div class="container-fluid bg-primary-subtle" style="height: 100vh">
-        <div class="image-container d-flex justify-content-center pt-5">
-            <img src="assets/images/data.png" alt="Logo" class="rounded-circle" width="300" height="300">
-        </div>
+        <div class="container-fluid bg-primary-subtle" style="height: 100dvh">
+            <div class="image-container d-flex justify-content-center pt-5">
+                <img src="assets/images/data.png" alt="Logo" class="rounded-circle" width="300" height="300">
+            </div>
             <h2 class="d-flex justify-content-center pt-4">Welcome to PHP Product Example</h2>
-            <div class="container d-flex justify-content-center pt-5 gap-3">
+            <div class="container d-flex justify-content-center pt-4 gap-3">
                 <button type="button" class="btn btn-outline-primary" id="productArrayButton">Product With Array</button>
                 <button type="button" class="btn btn-outline-primary" id="productApiButton">Product With API</button>
             </div>
 
         </div>
     </main>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-body" href="https://github.com/aldinpramudya">riel</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 
     <script src="assets/js/script.js"></script>

@@ -51,14 +51,13 @@ curl_close($curl);
         </div>
     </nav>
     <main>
-        <h2 class="d-flex justify-content-center pt-4">Product With API</h2>
-        <div class="d-flex justify-content-center pt-3">
-            <a href="https://660add56ccda4cbc75dbf4dd.mockapi.io/user" target="_blank">
-                <button type="button" class="btn btn-outline-primary ">API Documentation</button>
-            </a>
-        </div>
-
-        <div class="container-fluid">
+        <div class="container-fluid" style="height: 100dvh">
+            <h2 class="d-flex justify-content-center pt-4">Product With API</h2>
+            <div class="d-flex justify-content-center pt-3">
+                <a href="https://660add56ccda4cbc75dbf4dd.mockapi.io/user" target="_blank">
+                    <button type="button" class="btn btn-outline-primary ">API Documentation</button>
+                </a>
+            </div>
             <div class="d-flex flex-wrap justify-content-md-center gap-3 pt-3">
                 <?php
                 foreach (json_decode($response, true) as $key => $value) {
@@ -83,8 +82,16 @@ curl_close($curl);
 
             </div>
         </div>
-
     </main>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-body" href="https://github.com/aldinpramudya">riel</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 
     <script src="assets/js/script.js"></script>
