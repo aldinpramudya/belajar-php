@@ -57,6 +57,14 @@ $data = array(
         "images" => "assets/images/kara.jpg",
         "mal_link" => "https://myanimelist.net/anime/5205/Kara_no_Kyoukai_Movie_7__Satsujin_Kousatsu_Go",
     ),
+    array(
+        "title" => "Kara No Kyoukai 2",
+        "studio" => "ufotable",
+        "type" => "Movie/Anime",
+        "mal_score" => "7.00",
+        "images" => "assets/images/kara.jpg",
+        "mal_link" => "https://myanimelist.net/anime/5205/Kara_no_Kyoukai_Movie_7__Satsujin_Kousatsu_Go",
+    ),
 );
 ?>
 
